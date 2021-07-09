@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-is-capitalized",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Test if a value is a string having an uppercase first character.",
   "license": "Apache-2.0",
   "author": {
