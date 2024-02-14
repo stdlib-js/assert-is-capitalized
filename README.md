@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isCapitalized from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-capitalized@deno/mod.js';
+import isCapitalized from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-capitalized@v0.2.0-deno/mod.js';
 ```
 
 #### isCapitalized( value )
@@ -81,7 +81,7 @@ bool = isCapitalized( 'salt and light' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isCapitalized from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-capitalized@deno/mod.js';
+import isCapitalized from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-capitalized@v0.2.0-deno/mod.js';
 
 var bool = isCapitalized( 'Hello' );
 // returns true
