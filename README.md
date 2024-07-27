@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isCapitalized from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-capitalized@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-capitalized/tags). For example,
+
+```javascript
 import isCapitalized from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-capitalized@v0.2.2-esm/index.mjs';
 ```
 
@@ -86,7 +91,7 @@ bool = isCapitalized( 'salt and light' );
 <body>
 <script type="module">
 
-import isCapitalized from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-capitalized@v0.2.2-esm/index.mjs';
+import isCapitalized from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-capitalized@esm/index.mjs';
 
 var bool = isCapitalized( 'Hello' );
 // returns true
