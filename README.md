@@ -155,6 +155,8 @@ Options:
 
 </section>
 
+<!-- /.usage -->
+
 <!-- CLI usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 <section class="notes">
@@ -176,8 +178,6 @@ Options:
 
 <!-- /.notes -->
 
-<!-- /.usage -->
-
 <section class="examples">
 
 ### Examples
@@ -186,8 +186,6 @@ Options:
 $ is-capitalized Beep
 true
 ```
-
-</section>
 
 To use as a [standard stream][standard-streams],
 
@@ -203,6 +201,8 @@ $ echo -n 'beep\tFoo' | is-capitalized --split '\t'
 false
 true
 ```
+
+</section>
 
 <!-- /.examples -->
 
@@ -263,8 +263,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/assert-is-capitalized.svg
 [npm-url]: https://npmjs.org/package/@stdlib/assert-is-capitalized
 
-[test-image]: https://github.com/stdlib-js/assert-is-capitalized/actions/workflows/test.yml/badge.svg?branch=v0.2.3
-[test-url]: https://github.com/stdlib-js/assert-is-capitalized/actions/workflows/test.yml?query=branch:v0.2.3
+[test-image]: https://github.com/stdlib-js/assert-is-capitalized/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/assert-is-capitalized/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/assert-is-capitalized/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/assert-is-capitalized?branch=main
